@@ -8,7 +8,7 @@ our @EXPORT_OK = qw|plot_qrcode|;
 use Carp 'croak';
 use Text::QRCode;
 
-our $VERSION = '';
+our $VERSION = '0.01';
 
 my %defaults = (
   casesensitive => 0,
