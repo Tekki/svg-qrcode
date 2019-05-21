@@ -11,7 +11,7 @@ our @EXPORT_OK = qw|plot_qrcode|;
 
 use Text::QRCode;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my %defaults = (
   casesensitive => 0,
